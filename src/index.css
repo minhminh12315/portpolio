@@ -77,11 +77,21 @@ li.nav-link>a {
 }
 
 .avatar {
-    background-color: black;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     margin-right: 3rem;
+}
+@media screen and (max-width: 1581px) {
+.avatar {
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    margin-right: 2rem;
+    position: absolute;
+    right:0;
+    bottom: 1vh;
+}
 }
 
 .something {

@@ -21,9 +21,9 @@ const About = () => {
       <div class="something">
         <div class="something-small">Something about me</div>
         <div class="something-big">
-          I'm newbie in IT and I'm learning something about programming. IDK
-          I'll go with Front-End or Back-End Developer so right now I'm just try
-          my self to create something new. Hopefully you feel good with this! :3
+          I'm an IT newbie and I'm trying to learn about programming. IDK if I'm
+          going to go with front-end or back-end developer so I'm just trying to
+          create some new projects at the moment.I Hope you gonna like it!
         </div>
       </div>
     </div>
