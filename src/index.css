@@ -86,7 +86,7 @@ li.nav-link>a {
     margin-right: 3rem;
 }
 
-@media screen and (max-width: 1902px) {
+@media screen and (max-width: 1903px) {
     .avatar {
         width: 500px;
         height: 500px;
