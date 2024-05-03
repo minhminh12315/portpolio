@@ -7,17 +7,20 @@ const About = () => {
         <h1 class="uppercase title-about">About</h1>
       </center>
       <div class="container pb-3">
-        <div class="uppercase about-content line-1">
-          hi, i'm Do Dung Quang Minh,
-        </div>
+        <div class="uppercase about-content line-1">hi, i'm Do Dung Quang Minh,</div>
         <div class="uppercase about-content pt-3">fullstack developer</div>
         <div class="uppercase about-content pt-3">of website and app.</div>
-        <div class="d-flex pt-5">
+        <div class="pt-5">
           <div class="ms-auto avatar">
-            <img class="avatar" src={avatar} alt="" />
+            <img class="avatar-img" src={avatar} alt="" />
           </div>
         </div>
       </div>
+
+
+
+
+
       <div class="something">
         <div class="something-small">Something about me</div>
         <div class="something-big">

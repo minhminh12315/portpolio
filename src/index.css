@@ -58,7 +58,7 @@ li.nav-link>a {
     background-color: aliceblue;
     border-radius: 60px;
     color: black;
-    height: 90vh;
+    height: 600px;
     position: relative;
 }
 
@@ -77,20 +77,37 @@ li.nav-link>a {
 }
 
 .avatar {
+    position:absolute;
+    bottom: 0;
+    right: 0;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     margin-right: 3rem;
 }
+
+@media screen and (max-width: 1903px) {
+    .avatar {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        margin-right: 2rem;
+        right:0;
+        bottom:0;
+    }
+}
 @media screen and (max-width: 1581px) {
 .avatar {
-    width: 60vh;
-    height: 60vh;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
-    margin-right: 2rem;
-    position: absolute;
-    right:0;
-    bottom: 1vh;
+}
+
+.avatar>img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
 }
 }
 
@@ -103,5 +120,24 @@ li.nav-link>a {
 .something-big {
     font-size: 36px;
     padding-left: 40px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .item {
+      animation: moveTop 2s ;
+    }
+  }
+
+
+
+@keyframes moveTop {
+    0% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
