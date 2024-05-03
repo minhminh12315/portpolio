@@ -86,7 +86,7 @@ li.nav-link>a {
     margin-right: 3rem;
 }
 
-@media screen and (max-width: 1903px) {
+@media screen and (max-width: 1902px) {
     .avatar {
         width: 500px;
         height: 500px;
@@ -94,6 +94,11 @@ li.nav-link>a {
         margin-right: 2rem;
         right:0;
         bottom:0;
+    }
+    .avatar>img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
     }
 }
 @media screen and (max-width: 1581px) {
@@ -107,7 +112,6 @@ li.nav-link>a {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    
 }
 }
 
